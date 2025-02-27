@@ -107,7 +107,7 @@ function Landing() {
             <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
             <input 
               type="text" 
-              placeholder="Search..." 
+              placeholder="Search for drinks" 
               className="pl-10 pr-4 py-2 px-2 bg-white rounded text-black outline-none border border-gray-300"
             />
              <button className="ml-2 bg-black text-white p-2 rounded">Search</button>
@@ -137,7 +137,7 @@ function Landing() {
             <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
             <input 
               type="text" 
-              placeholder="Search..." 
+              placeholder="Search for drinks" 
               className="pl-10 pr- bg-[white] py-2 px- w-[100%] rounded text-black outline-none border border-gray-300"
             />
              <button className="ml-2 bg-black text-white p-2 rounded">Search</button>
@@ -416,7 +416,7 @@ function Landing() {
             
             <figure className="px- pt-8 flex justify-center">
               <img
-                src="src/assets/Wine.jpg"
+                src="/Wine.jpg"
                 alt="wine"
                 className="rounded h-[130px]"
               />
@@ -494,7 +494,7 @@ function Landing() {
             
             <figure className="px- pt-8 flex justify-center">
               <img
-                src="src/assets/Wine2.jpg"
+                src="/Wine2.jpg"
                 alt="wine"
                 className="rounded h-[130px]"
               />
@@ -569,7 +569,7 @@ function Landing() {
             
             <figure className="px- pt-8 flex justify-center">
               <img
-                src="src/assets/Wine3.jpg"
+                src="/Wine3.jpg"
                 alt="wine"
                 className="rounded h-[130px]"
               />
@@ -641,7 +641,7 @@ function Landing() {
          
     <div className="carousel-item flex flex-col">
     <img
-      src="/src/assets/Wine5.jpg"
+      src="/Wine5.jpg"
       className="rounded-box h-[190px] w-[270px]" />
       <div className="flex items-center gap-x-1">
         <div className="text-black text-[14px] font-bold">Wines</div>
@@ -725,7 +725,7 @@ function Landing() {
           </div> */}
     <div className="carousel-item flex flex-col">
     <img
-      src="/src/assets/Wine5.jpg"
+      src="/Wine5.jpg"
       className="rounded-box h-[190px] w-[270px] lg:h-[250px] lg:w-[320px]"/>
       <div className="flex flex-col items-cente gap-x-1 w-[200px]">
         <div className="text-black text-[16px] text-blue-400 font-bold mt-3">Drinks.ng</div>
