@@ -85,7 +85,7 @@ function Landing() {
  
   return (<>
     <div className="bg-white min-h-screen">
-    <nav className="w-full bg-black py-2 px-6 lg:px-[100px] text-white flex justify-between items-center">
+    <nav className="w-full bg-blue-600 py-2 px-6 lg:px-[100px] text-white flex justify-between items-center">
       <span className="text- cursor-pointer">Deliver to <span className="font-bold">Select address</span></span>
       <span className="text- cursor-pointer hidden lg:flex">Become a vendor</span>
       <span className="text- cursor-pointer hidden lg:flex">Feedback</span>
@@ -100,7 +100,7 @@ function Landing() {
           {isOpen ? <FiX /> : <FiMenu />}
         </button>
         <div className="md:flex w-full px-[5%] justify-center lg:justify-between flex items-center">
-          <span className="font-semibold text-[27px] flex text-orange-500">drinks.ng</span>
+          <span className="font-semibold text-[27px] flex text-blue-600">Afrique en primeurs</span>
          
           <span className="text-lg font-semibold">
           <div className="relative hidden lg:flex">
@@ -225,7 +225,7 @@ function Landing() {
 </div>
 
 
-<div className="mt-10 flex flex-col text-orange-500 items-center">
+<div className="mt-10 flex flex-col text-blue-600 items-center">
   <div>Start shopping</div>
   <FiChevronDown/>
 </div>
@@ -728,7 +728,7 @@ function Landing() {
       src="/Wine5.jpg"
       className="rounded-box h-[190px] w-[270px] lg:h-[250px] lg:w-[320px]"/>
       <div className="flex flex-col items-cente gap-x-1 w-[200px]">
-        <div className="text-black text-[16px] text-blue-400 font-bold mt-3">Drinks.ng</div>
+        <div className="text-black text-[16px] text-blue-400 font-bold mt-3">Afrique en primeurs</div>
         <div className="text-[17px] text-black font-bold hover:text-[red]">Hosting the Perfect Wine Tasting Party</div>
       </div>
   </div>      
